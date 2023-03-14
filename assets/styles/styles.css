@@ -38,10 +38,10 @@ body{
 
 .text h1{
     text-transform: uppercase;
-font-family: poppins;
-font-style: italic;
-font-size: 100px;
-color: orangered;
+    font-family: poppins;
+    font-style: italic;
+    font-size: 100px;
+    color: orangered;
 
 }
 
@@ -54,19 +54,50 @@ color: orangered;
 }
 
 .desc1{
-  /* border: 1px solid #fff; */
-  margin: 4px;
-  padding: 5px;
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color: #000000de;
-  color: rgb(198, 186, 182);
-  border-radius: 5px;
-  font-family: poppins;
-  font-size: 10px;
+    /* border: 1px solid #fff; */
+    margin: 4px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #000000de;
+    color: rgb(198, 186, 182);
+    border-radius: 5px;
+    font-family: poppins;
+    font-size: 10px;
 }
 .desc1 i{
     border: 1px solid rgb(255, 255, 255);
     padding: 10px;
     margin-right: 10px;
+}
+
+
+@media screen and (max-width: 770px){
+    .text h1{
+        text-transform: uppercase;
+        font-family: poppins;
+        font-style: italic;
+        font-size: 40px;
+        color:orangered;
+        margin-bottom: 50px;
+
+    }
+
+    .text{
+        max-width: 69%;
+    }
+
+    .description{
+        margin-top:60% ;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        max-width: 69%;
+        
+
+}
+    .hero{
+        height: 40vh;
+    }
+
 }
