@@ -27,7 +27,7 @@ body{
 
 .text{
     text-align: left;
-    padding-top: 15%;
+    /* padding-top: 15%; */
     /* margin-bottom: 6px; */
 }
 
@@ -64,7 +64,7 @@ body{
     grid-template-columns: auto auto;
     background-color: #3632326b;
 
-    color: rgb(127, 123, 123);
+    color: rgb(187, 179, 179);
     border-radius: 5px;
     font-family: poppins;
     font-size: 10px;
