@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Marck+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+
+}
+
+.header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.087),rgb(0, 0, 0)), url(../images/img3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero{
+    padding-left: 8%;
+    padding-right: 8%;
+   
+
+}
+
+.text{
+    text-align: left;
+    padding-top: 15%;
+    margin-bottom: 6px;
+}
+
+.text p{
+    max-width: 500px;
+
+}
+
+.text h1{
+    text-transform: uppercase;
+font-family: poppins;
+font-style: italic;
+font-size: 100px;
+color: orangered;
+
+}
+
+.description{
+    margin-top:10% ;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.desc1{
+  /* border: 1px solid #fff; */
+  margin: 4px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #000000de;
+  color: rgb(198, 186, 182);
+  border-radius: 5px;
+  font-family: poppins;
+  font-size: 10px;
+}
+.desc1 i{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin-right: 10px;
+}
