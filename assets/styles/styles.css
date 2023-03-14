@@ -52,6 +52,7 @@ body{
     grid-template-columns: auto auto auto; */
     display: flex;
     -ms-flex-direction: column;
+    border: 1px solid #fff;
 
 }
 
@@ -61,17 +62,32 @@ body{
     padding: 5px;
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #000000de;
-    color: rgb(198, 186, 182);
+    background-color: #938c8c54;
+
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     font-family: poppins;
     font-size: 10px;
+    transition: 2s ease;
 }
+
+.desc1:hover{
+     color: rgb(206, 205, 205);
+    background-color: #0000001a;
+
+}
+
 .desc1 i{
     border: 1px solid #fff;
+    font-size: 30px;
     padding: 10px;
     margin-right: 10px;
+    /* color: orangered; */
+}
+
+.desc1 i:hover{
     color: orangered;
+
 }
 
 
@@ -83,10 +99,13 @@ body{
         font-style: italic;
         font-size: 50px;
         color:orangered;
-        margin-bottom: 30px;
+        margin-bottom: 200px;
+        margin-top: 70px;
 
     }
     .text p{
+        margin-top:100px ;
+
         display: ;
         font-size: 12px;
         text-align: center;
@@ -97,7 +116,7 @@ body{
     }
 
     .description{
-        margin-top:10% ;
+        margin-top:40% ;
         margin-bottom: 10px;
         display: flex;
         flex-direction: column;
