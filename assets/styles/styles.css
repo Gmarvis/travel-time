@@ -32,7 +32,7 @@ body{
 }
 
 .text p{
-    max-width: 500px;
+    /* max-width: 500px; */
 
 }
 
@@ -47,9 +47,11 @@ body{
 
 .description{
     margin-top:10% ;
-    margin-bottom: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    /* margin-bottom: 10px; */
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    display: flex;
+    -ms-flex-direction: column;
 
 }
 
@@ -72,27 +74,33 @@ body{
 }
 
 
-@media screen and (max-width: 9000px){
+@media screen and (max-width: 770px){
     .text h1{
         text-transform: uppercase;
+        text-align: center;
         font-family: poppins;
         font-style: italic;
-        font-size: 40px;
+        font-size: 50px;
         color:orangered;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
 
+    }
+    .text p{
+        display: ;
+        font-size: 12px;
+        text-align: center;
     }
 
     .text{
-        max-width: 69%;
+    
     }
 
     .description{
-        margin-top:60% ;
+        margin-top:10% ;
         margin-bottom: 10px;
         display: flex;
         flex-direction: column;
-        max-width: 69%;
+        font-size: 12px;
         
 
 }
